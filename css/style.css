@@ -3862,8 +3862,6 @@ a.logo:hover{
     line-height: 1.75;
 }
 
-
-
 /* ==============================
    Newsletter
    ============================== */
@@ -5728,6 +5726,41 @@ section:hover .small-item-carousel .owl-next{
     text-transform: uppercase;
 }
 
+/* ==============================
+   Button Contact
+   ============================== */
+
+.contact-button{
+    display: inline-block;
+    bottom: 55px;
+    right: 15px;
+    text-align: center;
+    line-height: 1.2;
+    z-index: 100;
+}
+.contact-button:before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.contact-button:hover,
+.contact-button:focus{
+    color: #ffffff;
+    text-decoration: none;
+
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);    
+}
 
 /* ==============================
    Special demos
